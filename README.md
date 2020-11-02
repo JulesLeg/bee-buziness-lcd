@@ -1,5 +1,5 @@
 # Pré requis
-* NodeJs
+* NodeJs (La version 12 à été utilisée)
 * npm
 * git
 
