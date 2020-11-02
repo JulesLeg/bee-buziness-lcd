@@ -25,8 +25,8 @@
   * ```cd bee-buziness-lcd/```
 * On build l'image docker
   * ```docker build -t lcd-app .```
-* On rentre dans le container pour pouvoir utiliser le logiciel
-  * ```docker run -it lcd-app bash```
+* On lance & rentre dans le container pour pouvoir utiliser le logiciel
+  * ```docker run -it --name lcd_app_container lcd-app bash```
 
 # Utilisation
 * Lancer l'application
