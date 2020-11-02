@@ -14,7 +14,7 @@ commander
       // Grid throw une erreur si la chaine contient autre chose
       // que des chiffres, car on ne prévoit pas les autres cas
       // pour le moment
-      console.log('Erreur: ', error.message);
+      console.log('Erreur: ', error);
     }
   })
   .parse(process.argv);

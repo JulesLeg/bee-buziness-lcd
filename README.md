@@ -3,6 +3,7 @@
 * NodeJs (La version 12 à été utilisée)
 * npm
 * git
+* tsc (compilateur typescript, à installer avec npm en global)
 
 ## Installation
 * On clone le repository:
@@ -25,8 +26,10 @@
   * ```cd bee-buziness-lcd/```
 * On build l'image docker
   * ```docker build -t lcd-app .```
-* On lance & rentre dans le container pour pouvoir utiliser le logiciel
-  * ```docker run -it --name lcd_app_container lcd-app bash```
+* On lance le container pour pouvoir utiliser le logiciel
+  * ```docker run -d -it --name lcd_app_container lcd-app bash```
+* Ensuite pour entrer à dans le container il suffit de faire
+  * ```docker exec -it lcd_app_container bash```
 
 # Utilisation
 * Lancer l'application
