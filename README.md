@@ -30,6 +30,6 @@
 
 # Utilisation
 * Lancer l'application
-  * ```node ./build/app.js {chaine}``` ou chaine est une chaine de caractère composée de chiffres
+  * ```node ./build/app.js {chaine}``` ou chaine est une chaine de caractères composée de chiffres
 * Lancer les tests
   * ```npm run test```
