@@ -3,7 +3,7 @@
 * NodeJs (La version 12 à été utilisée)
 * npm
 * git
-* tsc (compilateur typescript, à installer avec npm en global)
+* typescript
 
 ## Installation
 * On clone le repository:
